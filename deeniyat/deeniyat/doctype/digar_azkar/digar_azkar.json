@@ -1,0 +1,258 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:student_name",
+ "creation": "2024-04-24 14:47:04.920103",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "student_section",
+  "column_break_ptkc",
+  "student_name",
+  "completion_date",
+  "grade_c_section",
+  "5_kalamat",
+  "wuzu_se_pahele_and_baad_ki_dua",
+  "azaan_ke_kalam_aat",
+  "azaan_ka_jawab",
+  "sureh_fateha",
+  "grade_b_section",
+  "sana",
+  "tashah_ud",
+  "durood_e_ibrahim",
+  "dua_masur_a",
+  "sureh_falaq",
+  "sureh_naaz",
+  "sureh_iqlaas",
+  "sureh_kausar",
+  "grade_a_section",
+  "dua_e_qunuth",
+  "ayatal_kursi",
+  "sajda_tilawat_ki_dua",
+  "sureh_lahab",
+  "sureh_nasar",
+  "sureh_al_kaferu_n",
+  "grade_a_plus_section",
+  "mayat_admi_ya_ladka_ho_to_dua",
+  "mayat_aurat_ya_ladki_ho_to_dua",
+  "sureh_maun",
+  "sureh_quresh",
+  "sureh_feel"
+ ],
+ "fields": [
+  {
+   "fieldname": "grade_c_section",
+   "fieldtype": "Section Break",
+   "label": "Grade C"
+  },
+  {
+   "default": "0",
+   "fieldname": "5_kalamat",
+   "fieldtype": "Check",
+   "label": "5 Kalamat"
+  },
+  {
+   "default": "0",
+   "fieldname": "wuzu_se_pahele_and_baad_ki_dua",
+   "fieldtype": "Check",
+   "label": "Wuzu Se Pahele And Baad Ki Dua"
+  },
+  {
+   "default": "0",
+   "fieldname": "azaan_ke_kalam_aat",
+   "fieldtype": "Check",
+   "label": "Azaan ke Kalam aat"
+  },
+  {
+   "default": "0",
+   "fieldname": "azaan_ka_jawab",
+   "fieldtype": "Check",
+   "label": "Azaan ka Jawab"
+  },
+  {
+   "default": "0",
+   "fieldname": "sureh_fateha",
+   "fieldtype": "Check",
+   "label": "Sureh Fateha"
+  },
+  {
+   "fieldname": "grade_b_section",
+   "fieldtype": "Section Break",
+   "label": "Grade B"
+  },
+  {
+   "default": "0",
+   "fieldname": "sana",
+   "fieldtype": "Check",
+   "label": "Sana"
+  },
+  {
+   "default": "0",
+   "fieldname": "tashah_ud",
+   "fieldtype": "Check",
+   "label": "Tashah ud"
+  },
+  {
+   "default": "0",
+   "fieldname": "durood_e_ibrahim",
+   "fieldtype": "Check",
+   "label": "Durood e Ibrahim"
+  },
+  {
+   "default": "0",
+   "fieldname": "dua_masur_a",
+   "fieldtype": "Check",
+   "label": "Dua Masur a"
+  },
+  {
+   "default": "0",
+   "fieldname": "sureh_falaq",
+   "fieldtype": "Check",
+   "label": "Sureh Falaq"
+  },
+  {
+   "default": "0",
+   "fieldname": "sureh_naaz",
+   "fieldtype": "Check",
+   "label": "Sureh Naaz"
+  },
+  {
+   "default": "0",
+   "fieldname": "sureh_iqlaas",
+   "fieldtype": "Check",
+   "label": "Sureh Iqlaas"
+  },
+  {
+   "default": "0",
+   "fieldname": "sureh_kausar",
+   "fieldtype": "Check",
+   "label": "Sureh Kausar"
+  },
+  {
+   "fieldname": "grade_a_section",
+   "fieldtype": "Section Break",
+   "label": "Grade A"
+  },
+  {
+   "default": "0",
+   "fieldname": "dua_e_qunuth",
+   "fieldtype": "Check",
+   "label": "Dua e Qunuth"
+  },
+  {
+   "default": "0",
+   "fieldname": "ayatal_kursi",
+   "fieldtype": "Check",
+   "label": "Ayatal Kursi"
+  },
+  {
+   "default": "0",
+   "fieldname": "sajda_tilawat_ki_dua",
+   "fieldtype": "Check",
+   "label": "Sajda Tilawat Ki Dua"
+  },
+  {
+   "default": "0",
+   "fieldname": "sureh_lahab",
+   "fieldtype": "Check",
+   "label": "Sureh Lahab"
+  },
+  {
+   "default": "0",
+   "fieldname": "sureh_nasar",
+   "fieldtype": "Check",
+   "label": "Sureh Nasar"
+  },
+  {
+   "default": "0",
+   "fieldname": "sureh_al_kaferu_n",
+   "fieldtype": "Check",
+   "label": "Sureh Al Kaferu n"
+  },
+  {
+   "fieldname": "grade_a_plus_section",
+   "fieldtype": "Section Break",
+   "label": "Grade A plus"
+  },
+  {
+   "default": "0",
+   "fieldname": "mayat_admi_ya_ladka_ho_to_dua",
+   "fieldtype": "Check",
+   "label": "Mayat Admi Ya Ladka ho to dua"
+  },
+  {
+   "default": "0",
+   "fieldname": "mayat_aurat_ya_ladki_ho_to_dua",
+   "fieldtype": "Check",
+   "label": "Mayat Aurat Ya Ladki ho to dua"
+  },
+  {
+   "default": "0",
+   "fieldname": "sureh_maun",
+   "fieldtype": "Check",
+   "label": "Sureh Maun"
+  },
+  {
+   "default": "0",
+   "fieldname": "sureh_quresh",
+   "fieldtype": "Check",
+   "label": "Sureh Quresh"
+  },
+  {
+   "default": "0",
+   "fieldname": "sureh_feel",
+   "fieldtype": "Check",
+   "label": "Sureh Feel"
+  },
+  {
+   "fieldname": "student_section",
+   "fieldtype": "Section Break",
+   "label": "Student"
+  },
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student Name",
+   "options": "Student",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "completion_date",
+   "fieldtype": "Date",
+   "label": "Completion Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ptkc",
+   "fieldtype": "Column Break",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-29 10:17:28.380230",
+ "modified_by": "Administrator",
+ "module": "Deeniyat",
+ "name": "Digar Azkar",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

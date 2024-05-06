@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:student_name",
+ "creation": "2024-04-24 11:40:32.045912",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "add_student_details_section",
+  "student_name",
+  "dob",
+  "guardian_number",
+  "age",
+  "column_break_pzwp",
+  "student_identification_section",
+  "roll_number",
+  "class",
+  "section",
+  "column_break_baoh"
+ ],
+ "fields": [
+  {
+   "fieldname": "add_student_details_section",
+   "fieldtype": "Section Break",
+   "label": "Add Student Details"
+  },
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Student Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "DOB",
+   "reqd": 1
+  },
+  {
+   "fieldname": "guardian_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Guardian Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_pzwp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Please fill these out if the student is from Shaheen College",
+   "fieldname": "student_identification_section",
+   "fieldtype": "Section Break",
+   "label": "Student Identification"
+  },
+  {
+   "fieldname": "roll_number",
+   "fieldtype": "Data",
+   "label": "Roll Number"
+  },
+  {
+   "fieldname": "class",
+   "fieldtype": "Select",
+   "label": "Class",
+   "options": "LKG\nUKG\nI\nII\nIII\nIV\nV\nVI\nVII\nVIII\nIX\nX\nNot from this college"
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Select",
+   "label": "Section",
+   "options": "A\nB\nC\nNot from this college"
+  },
+  {
+   "fieldname": "column_break_baoh",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-25 11:04:02.275717",
+ "modified_by": "Administrator",
+ "module": "Deeniyat",
+ "name": "Student",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

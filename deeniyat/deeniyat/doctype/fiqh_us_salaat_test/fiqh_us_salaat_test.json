@@ -1,0 +1,218 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:student_name",
+ "creation": "2024-04-24 14:37:45.193110",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "student_section",
+  "student_name",
+  "completion_date",
+  "grade_c_section",
+  "wuzu_ki_sunnate",
+  "wuzu_ki_faraiz",
+  "wuzu_ka_mukammal_tariqa",
+  "ghusl_ki_sunnate",
+  "ghusl_ke_faraiz",
+  "ghusl_ka_mukammal_tariqa",
+  "namaz_aur_rakat",
+  "grade_b_section",
+  "nawaqize_wuzu",
+  "sharat_e_namaz",
+  "arkaan_e_namaz",
+  "wajibat_e_namaz",
+  "muqsid_aat_e_namaz",
+  "grade_a_section",
+  "farz_namaz_ka_mukamm",
+  "witr_ki_namaz_ka_mukam_mal_tariqa",
+  "sajda_e_sahu_ka_tariqa",
+  "sajda_e_tilawat_ka_tariqa",
+  "grade_a_plus_section",
+  "namaz_e_jumma_ka_tariqa",
+  "eid_ki_namaz_ka_tariqa",
+  "namaz_e_janaza_ka_tariqa"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_section",
+   "fieldtype": "Section Break",
+   "label": "Student"
+  },
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student Name",
+   "options": "Student",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "grade_c_section",
+   "fieldtype": "Section Break",
+   "label": "Grade C"
+  },
+  {
+   "default": "0",
+   "fieldname": "wuzu_ki_sunnate",
+   "fieldtype": "Check",
+   "label": "Wuzu Ki Sunnate"
+  },
+  {
+   "default": "0",
+   "fieldname": "wuzu_ki_faraiz",
+   "fieldtype": "Check",
+   "label": "Wuzu Ki Faraiz"
+  },
+  {
+   "default": "0",
+   "fieldname": "wuzu_ka_mukammal_tariqa",
+   "fieldtype": "Check",
+   "label": "Wuzu Ka Mukammal Tariqa"
+  },
+  {
+   "default": "0",
+   "fieldname": "ghusl_ki_sunnate",
+   "fieldtype": "Check",
+   "label": "Ghusl ki sunnate"
+  },
+  {
+   "default": "0",
+   "fieldname": "ghusl_ke_faraiz",
+   "fieldtype": "Check",
+   "label": "Ghusl ke faraiz"
+  },
+  {
+   "default": "0",
+   "fieldname": "ghusl_ka_mukammal_tariqa",
+   "fieldtype": "Check",
+   "label": "Ghusl ka mukammal tariqa"
+  },
+  {
+   "default": "0",
+   "description": "Din or raat me kitne namaze hoti hai or koun kounse or in ki rakatee",
+   "fieldname": "namaz_aur_rakat",
+   "fieldtype": "Check",
+   "label": "Namaz aur Rakat"
+  },
+  {
+   "fieldname": "grade_b_section",
+   "fieldtype": "Section Break",
+   "label": "Grade B"
+  },
+  {
+   "default": "0",
+   "fieldname": "nawaqize_wuzu",
+   "fieldtype": "Check",
+   "label": "Nawaqize Wuzu"
+  },
+  {
+   "default": "0",
+   "fieldname": "sharat_e_namaz",
+   "fieldtype": "Check",
+   "label": "Sharat e namaz"
+  },
+  {
+   "default": "0",
+   "fieldname": "arkaan_e_namaz",
+   "fieldtype": "Check",
+   "label": "Arkaan e namaz"
+  },
+  {
+   "default": "0",
+   "fieldname": "wajibat_e_namaz",
+   "fieldtype": "Check",
+   "label": "Wajibat e namaz"
+  },
+  {
+   "default": "0",
+   "fieldname": "muqsid_aat_e_namaz",
+   "fieldtype": "Check",
+   "label": "Muqsid aat e namaz"
+  },
+  {
+   "fieldname": "grade_a_section",
+   "fieldtype": "Section Break",
+   "label": "Grade A"
+  },
+  {
+   "default": "0",
+   "fieldname": "farz_namaz_ka_mukamm",
+   "fieldtype": "Check",
+   "label": "Farz Namaz Ka Mukamm"
+  },
+  {
+   "default": "0",
+   "fieldname": "witr_ki_namaz_ka_mukam_mal_tariqa",
+   "fieldtype": "Check",
+   "label": "Witr Ki namaz ka mukam mal tariqa"
+  },
+  {
+   "default": "0",
+   "fieldname": "sajda_e_sahu_ka_tariqa",
+   "fieldtype": "Check",
+   "label": "Sajda e sahu ka tariqa"
+  },
+  {
+   "default": "0",
+   "fieldname": "sajda_e_tilawat_ka_tariqa",
+   "fieldtype": "Check",
+   "label": "sajda e tilawat ka tariqa"
+  },
+  {
+   "fieldname": "grade_a_plus_section",
+   "fieldtype": "Section Break",
+   "label": "Grade A plus"
+  },
+  {
+   "default": "0",
+   "fieldname": "namaz_e_jumma_ka_tariqa",
+   "fieldtype": "Check",
+   "label": "namaz e jumma ka tariqa"
+  },
+  {
+   "default": "0",
+   "fieldname": "eid_ki_namaz_ka_tariqa",
+   "fieldtype": "Check",
+   "label": "Eid ki namaz ka tariqa"
+  },
+  {
+   "default": "0",
+   "fieldname": "namaz_e_janaza_ka_tariqa",
+   "fieldtype": "Check",
+   "label": "Namaz e Janaza Ka tariqa"
+  },
+  {
+   "fieldname": "completion_date",
+   "fieldtype": "Date",
+   "label": "Completion Date",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-29 10:17:18.586550",
+ "modified_by": "Administrator",
+ "module": "Deeniyat",
+ "name": "Fiqh us salaat Test",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

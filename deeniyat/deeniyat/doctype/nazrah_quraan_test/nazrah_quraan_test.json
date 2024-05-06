@@ -1,0 +1,184 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:student",
+ "creation": "2024-04-24 14:08:10.385853",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "student_details_section",
+  "student",
+  "completion_date",
+  "grade_c_section",
+  "huruf_ki_shanaqt",
+  "harkaat",
+  "huruf_e_maddah",
+  "mad_e_hukmi",
+  "huruf_e_leen",
+  "grade_b_section",
+  "sukun",
+  "qalqala",
+  "tashdeed",
+  "lame_jalala",
+  "tanween",
+  "grade_a_section",
+  "ra_ke_qaide",
+  "izhar",
+  "iqlab",
+  "idgham",
+  "meem_sakeen_ke_qaide"
+ ],
+ "fields": [
+  {
+   "fieldname": "grade_c_section",
+   "fieldtype": "Section Break",
+   "label": "Grade C"
+  },
+  {
+   "default": "0",
+   "fieldname": "huruf_ki_shanaqt",
+   "fieldtype": "Check",
+   "label": "Huruf Ki Shanaqt"
+  },
+  {
+   "default": "0",
+   "fieldname": "harkaat",
+   "fieldtype": "Check",
+   "label": "Harkaat"
+  },
+  {
+   "default": "0",
+   "fieldname": "huruf_e_maddah",
+   "fieldtype": "Check",
+   "label": "Huruf e Maddah"
+  },
+  {
+   "default": "0",
+   "fieldname": "mad_e_hukmi",
+   "fieldtype": "Check",
+   "label": "Mad e Hukmi"
+  },
+  {
+   "default": "0",
+   "fieldname": "huruf_e_leen",
+   "fieldtype": "Check",
+   "label": "Huruf e leen"
+  },
+  {
+   "fieldname": "grade_b_section",
+   "fieldtype": "Section Break",
+   "label": "Grade B"
+  },
+  {
+   "default": "0",
+   "fieldname": "sukun",
+   "fieldtype": "Check",
+   "label": "Sukun"
+  },
+  {
+   "default": "0",
+   "fieldname": "qalqala",
+   "fieldtype": "Check",
+   "label": "Qalqala"
+  },
+  {
+   "default": "0",
+   "fieldname": "tashdeed",
+   "fieldtype": "Check",
+   "label": "Tashdeed"
+  },
+  {
+   "default": "0",
+   "fieldname": "lame_jalala",
+   "fieldtype": "Check",
+   "label": "Lame Jalala"
+  },
+  {
+   "default": "0",
+   "fieldname": "tanween",
+   "fieldtype": "Check",
+   "label": "Tanween"
+  },
+  {
+   "fieldname": "grade_a_section",
+   "fieldtype": "Section Break",
+   "label": "Grade A"
+  },
+  {
+   "default": "0",
+   "fieldname": "ra_ke_qaide",
+   "fieldtype": "Check",
+   "label": "Ra' ke Qaide"
+  },
+  {
+   "default": "0",
+   "fieldname": "izhar",
+   "fieldtype": "Check",
+   "label": "Izhar"
+  },
+  {
+   "default": "0",
+   "fieldname": "iqlab",
+   "fieldtype": "Check",
+   "label": "Iqlab"
+  },
+  {
+   "default": "0",
+   "fieldname": "idgham",
+   "fieldtype": "Check",
+   "label": "idgham"
+  },
+  {
+   "default": "0",
+   "fieldname": "meem_sakeen_ke_qaide",
+   "fieldtype": "Check",
+   "label": "Meem Sakeen ke Qaide"
+  },
+  {
+   "fieldname": "student_details_section",
+   "fieldtype": "Section Break",
+   "label": "Student Details"
+  },
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student",
+   "options": "Student",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "completion_date",
+   "fieldtype": "Date",
+   "label": "Completion Date",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-29 10:04:51.840918",
+ "modified_by": "Administrator",
+ "module": "Deeniyat",
+ "name": "Nazrah Quraan Test",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

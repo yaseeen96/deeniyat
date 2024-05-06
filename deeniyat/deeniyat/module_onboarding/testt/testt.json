@@ -1,0 +1,26 @@
+{
+ "allow_roles": [
+  {
+   "role": "SuperAdmin"
+  }
+ ],
+ "creation": "2024-04-25 14:50:22.182580",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "google.com",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2024-04-25 14:50:22.182580",
+ "modified_by": "Administrator",
+ "module": "Deeniyat",
+ "name": "testt",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "step 1"
+  }
+ ],
+ "subtitle": "subtitle",
+ "success_message": "congratulations",
+ "title": "this is title"
+}
